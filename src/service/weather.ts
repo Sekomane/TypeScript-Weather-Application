@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_KEY = '2e9b765157412cc117ba7ae2770887e3'
+const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY
 const BASE_URL = 'https://api.openweathermap.org/data/2.5'
 
 // Current weather by city
